@@ -3,7 +3,7 @@
 # Copyright (C) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT license. See LICENSE.txt in the project root for license information.
 
-ARG FROM_IMAGE=microsoft/dotnet-framework:3.5-sdk-windowsservercore-ltsc2016
+ARG FROM_IMAGE=microsoft/dotnet-framework:3.5-sdk-windowsservercore-ltsc2019
 FROM ${FROM_IMAGE}
 
 # Reset the shell.
